@@ -1,0 +1,322 @@
+body {
+    font-family: arial;
+    margin:0;
+    padding:0;
+}
+#principal {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin:0
+}
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 26%;
+    z-index:9999;
+    
+}
+#logo {
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 11%;
+    background-color: #0172b6;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    color:#fff
+}
+
+.icon {
+    width: 24%;
+    height: 100%;
+}
+
+.icons {
+    width: 5%;
+    height: 25%;
+    margin: 10px 11px 10px 44px;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 85px;
+    background-color: #dfe4e3;
+    margin-top: 80px;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu ul li {
+   list-style: none;
+}
+.menu ul li select {
+  border: none;
+  background-color: #dfe4e3;
+  color: #908d89;
+  margin: 0px 19px;
+  font-size: 14px;
+
+}
+.menu ul li a {
+text-decoration-style: none;
+  text-decoration: none;
+  margin: 12px 39px;
+  color: #908d89;
+  border: none
+}
+
+.formulario {
+    width: 100%;
+    height: 600px;
+    color: #fff;
+    background-color: #0172b6;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('https://www.xtrafondos.com/wallpapers/resized/ala-de-un-avion-88.jpg?s=large')  ;
+    
+}
+
+.box {
+    display: flex;
+    width: 22%;
+    height: 66%;
+    background-color: #0172b6 ;
+    color: #fff;
+    margin: 80px 42px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 42% 49%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 16%;
+   
+}
+
+.item input {
+    border-radius: 5px;
+    background-color:#87c3e6;
+    color: #fff !important;
+    height: 20px;
+    text-align: center;
+    border: none;
+}
+.item select {
+    border-radius: 5px;
+    background-color:#87c3e6;
+    color: #fff ;
+    height: 28px; 
+}
+
+.item button {
+    height: 72%;
+    width: 64%;
+    border-radius: 7px;
+    background-color: #20cc20;
+    color: #fff;
+    border: none;
+    margin-left: 27px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 310px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    background-color: #dfe4e3;
+    width: 100%;
+    height: 800px;
+}
+
+.column1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+}
+
+.column1 img {
+    width: 23%;
+    height: 29%;
+}
+
+.column1 h3 {
+    color: #030631ed;
+    font-size: 20px;
+}
+
+.column1 p {
+    text-align: justify;
+    width: 60%;
+    color: #798282;
+}
+.oficinas {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 334px;
+}
+.oficinas h3 {
+    font-size: 32px;
+    color: #030631ed;
+    margin: 0;
+}
+
+.column2 {
+    text-align: justify;
+    flex-direction: column;
+    width: 10%;
+    justify-content: center;
+    margin: -3px 76px 1px 15px;
+}
+
+.column2 h4{
+    font-size: 20px;
+    color: #030631ed;
+    margin: 0;
+}
+.tienda {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+.tienda img {
+    width: 10%;
+    height: 41%;
+}
+
+.tienda p {
+    color: #928d86;
+}
+
+.contacto {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dfe4e3;  
+    height: 460px;
+}
+
+.contacto h3 {
+    font-size: 32px;
+    color: #030631ed;
+    margin: 0;
+}
+
+.form1 {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 25% 29%;
+    margin: 33px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+
+}
+
+.column3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.column3 h5 {
+    font-size: 18px;
+    color: #030631ed;
+}
+
+.column3 img { 
+    width: 55%;
+    height: 46%;
+}
+
+.column3 p {
+    text-align: justify;
+    width: 60%;
+    color: #323838;
+}
+
+.item1 {
+    display: flex;
+    height: 11%;
+    width: 65%;
+    justify-content: space-between;
+}
+.item1 input {
+    width: 46%;
+    height: 69%;
+    background-color: #87c3e6;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+.container textarea{
+    width: 65%;
+    background-color: #87c3e6;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.enviar { 
+    width: 20%;
+}
+
+.container {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ height: 100%;
+}
+
+
+
